@@ -67,7 +67,7 @@ function Quiz() {
     return (
       <div>
         <h1>Quiz Ended</h1>
-        Your Score : {score}
+        Your Score : {score} / {questions.length}
       </div>
     );
   }
